@@ -1,7 +1,7 @@
 # Amazon Clone (HTML & CSS Only)
 
 Welcome to my **Microft-clone** project! This is a beginner-friendly project built using only **HTML** and **CSS**. The purpose of this project is to practice and improve my front-end development skills by recreating the basic structure and style of the Microsoft website.
-check the website at:
+check the website at: https://sarathjithu89.github.io/Microsoft-clone/
 
 ---
 
@@ -66,7 +66,7 @@ Since it’s for learning purposes, it doesn’t include functionality like sear
 
 ### Homepage Layout
 
-![Homepage Screenshot]()
+![Homepage Screenshot](https://github.com/Sarathjithu89/Microsoft-clone/blob/master/pictures/Screenshots/Screenshot%202024-12-13%20185314.png)
 
 ---
 
