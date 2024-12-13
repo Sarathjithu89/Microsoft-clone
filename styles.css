@@ -10,6 +10,9 @@
 body {
   display: block;
 }
+
+/* Navigation bar */
+
 .nav-panel {
   display: flex;
   height: 55px;
@@ -18,6 +21,7 @@ body {
   align-items: center;
   justify-content: space-around;
 }
+
 .nav-left {
   display: flex;
   align-items: center;
@@ -99,11 +103,102 @@ body {
   text-decoration: underline solid 1.5px;
 }
 .nav-signin {
-  padding: 5px;
+  font-size: 13px;
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+  white-space: nowrap;
 }
 .nav-signin i {
   margin-left: 3.5px;
   font-size: 15px;
+  padding: 5px;
   border-radius: 50%;
   border: 0.1px solid black;
+}
+
+/* Hero section css */
+
+.hero-section {
+  background-image: url(./pictures/Hero_section/Highlight-Surface-Pro-AI-11Ed-Sapphire-MC001-3000x1682_VP5-1920x600.avif);
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+/* Hero section inside box */
+
+.hero-box {
+  position: absolute;
+  top: 50px;
+  left: 78px;
+  width: 450px;
+  height: 220px;
+  padding: 50px;
+}
+.hero-box h2 {
+  background-color: rgb(255, 187, 0);
+  display: inline;
+  padding: 4px 10px;
+  font-weight: 600;
+}
+.hero-box h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+.hero-box p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 10px 10px 0;
+  font-size: 15px;
+}
+.hero-box button {
+  background-color: rgb(56, 100, 167);
+  border: none;
+  padding: 8px;
+  color: #fff;
+  font-weight: 500;
+}
+
+/* Hero section icons */
+
+.hero-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 110px;
+  margin: 20px 0;
+}
+.icon-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.hero-icons i {
+  font-size: 30px;
+}
+.hero-icons a {
+  color: rgb(2, 122, 251);
+}
+
+/* Cards Css */
+.cards {
+  display: flex;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+}
+.cards-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  height: 100%;
+}
+.card-content {
+  display: flex;
 }
